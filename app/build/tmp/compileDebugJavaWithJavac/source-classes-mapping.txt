@@ -1,0 +1,4 @@
+com/heklai/mercallery_pro/BuildConfig.java
+ com.heklai.mercallery_pro.BuildConfig
+com/heklai/mercallery_pro/MainActivity.java
+ com.heklai.mercallery_pro.MainActivity
