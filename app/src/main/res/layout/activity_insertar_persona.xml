@@ -10,23 +10,29 @@
         android:id="@+id/NombreP"
         android:layout_width="199dp"
         android:layout_height="27dp"
-        tools:layout_editor_absoluteX="93dp"
-        tools:layout_editor_absoluteY="79dp" />
+        android:layout_marginBottom="52dp"
+        app:layout_constraintBottom_toTopOf="@+id/DocumentoP"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
         android:id="@+id/DocumentoP"
         android:layout_width="199dp"
         android:layout_height="27dp"
-        android:layout_marginTop="46dp"
-        app:layout_constraintTop_toBottomOf="@+id/NombreP"
-        tools:layout_editor_absoluteX="93dp" />
+        android:layout_marginBottom="68dp"
+        app:layout_constraintBottom_toTopOf="@+id/tipoPersona"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <CalendarView
         android:id="@+id/fechaN"
-        android:layout_width="344dp"
-        android:layout_height="318dp"
-        tools:layout_editor_absoluteX="33dp"
-        tools:layout_editor_absoluteY="302dp" />
+        android:layout_width="264dp"
+        android:layout_height="209dp"
+        android:layout_marginBottom="92dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/registrar"
@@ -34,13 +40,18 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
         android:text="Registrar"
-        app:layout_constraintTop_toBottomOf="@+id/fechaN"
-        tools:layout_editor_absoluteX="147dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fechaN" />
 
     <Spinner
         android:id="@+id/tipoPersona"
         android:layout_width="254dp"
         android:layout_height="34dp"
-        tools:layout_editor_absoluteX="78dp"
-        tools:layout_editor_absoluteY="224dp" />
+        android:layout_marginBottom="32dp"
+        app:layout_constraintBottom_toTopOf="@+id/fechaN"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

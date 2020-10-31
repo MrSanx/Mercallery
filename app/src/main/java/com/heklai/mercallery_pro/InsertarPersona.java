@@ -64,10 +64,10 @@ public class InsertarPersona extends AppCompatActivity {
         String nombre= nombrePersona.getText().toString().trim();
         String documento= documentoP.getText().toString().trim();
 
-        String tipo= dropdown.getSelectedItem().toString();
-        if(tipo == "Cliente"){
+        String idtipo= dropdown.getSelectedItem().toString();
+        if(idtipo.equals("Cliente")){
             idTipo= "1";
-        }else if(tipo == "Artista") {
+        }else if(idtipo.equals("Artista")) {
             idTipo= "2";
         }
 
@@ -103,10 +103,9 @@ public class InsertarPersona extends AppCompatActivity {
                 @Override
                 protected Map<String, String> getParams() throws AuthFailureError {
                     Map<String,String>params= new HashMap<String, String>();
-                    params.put("tipo", finalIdTipo);
+                    params.put("idTipo", finalIdTipo);
                     params.put("documento",documento);
                     params.put("nombre",nombre);
-                    params.put("tipo", finalIdTipo);
                     params.put("fechaNacimiento", fecha);
 
                     return params;
