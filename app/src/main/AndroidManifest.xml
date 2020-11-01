@@ -12,7 +12,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MercalleryPro">
-        <activity android:name=".InsertarObra"></activity>
+        <activity android:name=".DetallesPersona"></activity>
+        <activity android:name=".VerPersonas" />
+        <activity android:name=".InsertarObra" />
         <activity android:name=".ActivityCrear" />
         <activity android:name=".SeleccionActividad" />
         <activity android:name=".InsertarPersona" />

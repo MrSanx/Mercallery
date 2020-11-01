@@ -1,7 +1,11 @@
+com/heklai/mercallery_pro/DetallesPersona.java
+ com.heklai.mercallery_pro.DetallesPersona
 com/heklai/mercallery_pro/BuildConfig.java
  com.heklai.mercallery_pro.BuildConfig
 com/heklai/mercallery_pro/ActivityCrear.java
  com.heklai.mercallery_pro.ActivityCrear
+com/heklai/mercallery_pro/Persona.java
+ com.heklai.mercallery_pro.Persona
 com/heklai/mercallery_pro/InsertarObra.java
  com.heklai.mercallery_pro.InsertarObra
  com.heklai.mercallery_pro.InsertarObra$1
@@ -18,5 +22,16 @@ com/heklai/mercallery_pro/InsertarPersona.java
  com.heklai.mercallery_pro.InsertarPersona$2
  com.heklai.mercallery_pro.InsertarPersona$3
  com.heklai.mercallery_pro.InsertarPersona$4
+<<<<<<< Updated upstream
+=======
+com/heklai/mercallery_pro/VerPersonas.java
+ com.heklai.mercallery_pro.VerPersonas
+ com.heklai.mercallery_pro.VerPersonas$1
+ com.heklai.mercallery_pro.VerPersonas$1$1
+ com.heklai.mercallery_pro.VerPersonas$2
+ com.heklai.mercallery_pro.VerPersonas$3
+com/heklai/mercallery_pro/AdaptadorPersona.java
+ com.heklai.mercallery_pro.AdaptadorPersona
+>>>>>>> Stashed changes
 com/heklai/mercallery_pro/MainActivity.java
  com.heklai.mercallery_pro.MainActivity

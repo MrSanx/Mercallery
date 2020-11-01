@@ -19,4 +19,9 @@ public class SeleccionActividad extends AppCompatActivity {
         startActivity(crear);
     }
 
+    //Metodo boton ver
+    public void Ver(View view){
+        Intent ver = new Intent(this, VerPersonas.class);
+        startActivity(ver);
+    }
 }

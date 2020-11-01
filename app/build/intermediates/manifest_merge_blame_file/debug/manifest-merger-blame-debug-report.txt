@@ -18,7 +18,7 @@
 12-->C:\apps\Mercallery-Pro\app\src\main\AndroidManifest.xml:6:22-64
 13
 14    <application
-14-->C:\apps\Mercallery-Pro\app\src\main\AndroidManifest.xml:8:5-26:19
+14-->C:\apps\Mercallery-Pro\app\src\main\AndroidManifest.xml:8:5-28:19
 15        android:allowBackup="true"
 15-->C:\apps\Mercallery-Pro\app\src\main\AndroidManifest.xml:9:9-35
 16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -35,32 +35,38 @@
 22        android:testOnly="true"
 23        android:theme="@style/Theme.MercalleryPro" >
 23-->C:\apps\Mercallery-Pro\app\src\main\AndroidManifest.xml:14:9-51
-24        <activity android:name="com.heklai.mercallery_pro.InsertarObra" />
-24-->C:\apps\Mercallery-Pro\app\src\main\AndroidManifest.xml:15:9-59
-24-->C:\apps\Mercallery-Pro\app\src\main\AndroidManifest.xml:15:19-47
-25        <activity android:name="com.heklai.mercallery_pro.ActivityCrear" />
-25-->C:\apps\Mercallery-Pro\app\src\main\AndroidManifest.xml:16:9-51
-25-->C:\apps\Mercallery-Pro\app\src\main\AndroidManifest.xml:16:19-48
-26        <activity android:name="com.heklai.mercallery_pro.SeleccionActividad" />
-26-->C:\apps\Mercallery-Pro\app\src\main\AndroidManifest.xml:17:9-56
-26-->C:\apps\Mercallery-Pro\app\src\main\AndroidManifest.xml:17:19-53
-27        <activity android:name="com.heklai.mercallery_pro.InsertarPersona" />
-27-->C:\apps\Mercallery-Pro\app\src\main\AndroidManifest.xml:18:9-53
-27-->C:\apps\Mercallery-Pro\app\src\main\AndroidManifest.xml:18:19-50
-28        <activity android:name="com.heklai.mercallery_pro.MainActivity" >
-28-->C:\apps\Mercallery-Pro\app\src\main\AndroidManifest.xml:19:9-25:20
-28-->C:\apps\Mercallery-Pro\app\src\main\AndroidManifest.xml:19:19-47
-29            <intent-filter>
-29-->C:\apps\Mercallery-Pro\app\src\main\AndroidManifest.xml:20:13-24:29
-30                <action android:name="android.intent.action.MAIN" />
-30-->C:\apps\Mercallery-Pro\app\src\main\AndroidManifest.xml:21:17-69
-30-->C:\apps\Mercallery-Pro\app\src\main\AndroidManifest.xml:21:25-66
-31
-32                <category android:name="android.intent.category.LAUNCHER" />
-32-->C:\apps\Mercallery-Pro\app\src\main\AndroidManifest.xml:23:17-77
-32-->C:\apps\Mercallery-Pro\app\src\main\AndroidManifest.xml:23:27-74
-33            </intent-filter>
-34        </activity>
-35    </application>
-36
-37</manifest>
+24        <activity android:name="com.heklai.mercallery_pro.DetallesPersona" />
+24-->C:\apps\Mercallery-Pro\app\src\main\AndroidManifest.xml:15:9-62
+24-->C:\apps\Mercallery-Pro\app\src\main\AndroidManifest.xml:15:19-50
+25        <activity android:name="com.heklai.mercallery_pro.VerPersonas" />
+25-->C:\apps\Mercallery-Pro\app\src\main\AndroidManifest.xml:16:9-49
+25-->C:\apps\Mercallery-Pro\app\src\main\AndroidManifest.xml:16:19-46
+26        <activity android:name="com.heklai.mercallery_pro.InsertarObra" />
+26-->C:\apps\Mercallery-Pro\app\src\main\AndroidManifest.xml:17:9-50
+26-->C:\apps\Mercallery-Pro\app\src\main\AndroidManifest.xml:17:19-47
+27        <activity android:name="com.heklai.mercallery_pro.ActivityCrear" />
+27-->C:\apps\Mercallery-Pro\app\src\main\AndroidManifest.xml:18:9-51
+27-->C:\apps\Mercallery-Pro\app\src\main\AndroidManifest.xml:18:19-48
+28        <activity android:name="com.heklai.mercallery_pro.SeleccionActividad" />
+28-->C:\apps\Mercallery-Pro\app\src\main\AndroidManifest.xml:19:9-56
+28-->C:\apps\Mercallery-Pro\app\src\main\AndroidManifest.xml:19:19-53
+29        <activity android:name="com.heklai.mercallery_pro.InsertarPersona" />
+29-->C:\apps\Mercallery-Pro\app\src\main\AndroidManifest.xml:20:9-53
+29-->C:\apps\Mercallery-Pro\app\src\main\AndroidManifest.xml:20:19-50
+30        <activity android:name="com.heklai.mercallery_pro.MainActivity" >
+30-->C:\apps\Mercallery-Pro\app\src\main\AndroidManifest.xml:21:9-27:20
+30-->C:\apps\Mercallery-Pro\app\src\main\AndroidManifest.xml:21:19-47
+31            <intent-filter>
+31-->C:\apps\Mercallery-Pro\app\src\main\AndroidManifest.xml:22:13-26:29
+32                <action android:name="android.intent.action.MAIN" />
+32-->C:\apps\Mercallery-Pro\app\src\main\AndroidManifest.xml:23:17-69
+32-->C:\apps\Mercallery-Pro\app\src\main\AndroidManifest.xml:23:25-66
+33
+34                <category android:name="android.intent.category.LAUNCHER" />
+34-->C:\apps\Mercallery-Pro\app\src\main\AndroidManifest.xml:25:17-77
+34-->C:\apps\Mercallery-Pro\app\src\main\AndroidManifest.xml:25:27-74
+35            </intent-filter>
+36        </activity>
+37    </application>
+38
+39</manifest>
