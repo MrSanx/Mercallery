@@ -1,10 +1,13 @@
 [
     {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         "merged": "C:\\apps\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\drawable_texture02.png.flat",
         "source": "C:\\apps\\Mercallery-Pro\\app\\src\\main\\res\\drawable\\texture02.png"
     },
     {
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
         "merged": "C:\\apps\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\drawable_texture04.png.flat",
@@ -16,11 +19,17 @@
     },
     {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
         "merged": "C:\\apps\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_detalles_persona.xml.flat",
         "source": "C:\\apps\\Mercallery-Pro\\app\\src\\main\\res\\layout\\activity_detalles_persona.xml"
     },
     {
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
         "merged": "C:\\apps\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
         "source": "C:\\apps\\Mercallery-Pro\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
@@ -35,11 +44,17 @@
     },
     {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
         "merged": "C:\\apps\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\drawable_texture02.jpg.flat",
         "source": "C:\\apps\\Mercallery-Pro\\app\\src\\main\\res\\drawable\\texture02.jpg"
     },
     {
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
         "merged": "C:\\apps\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
         "source": "C:\\apps\\Mercallery-Pro\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
@@ -50,7 +65,10 @@
     },
     {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
         "merged": "C:\\apps\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_ver_personas.xml.flat",
         "source": "C:\\apps\\Mercallery-Pro\\app\\src\\main\\res\\layout\\activity_ver_personas.xml"
     },
@@ -59,6 +77,9 @@
         "source": "C:\\apps\\Mercallery-Pro\\app\\src\\main\\res\\layout\\my_list_itempersona.xml"
     },
     {
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
         "merged": "C:\\apps\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_seleccion_actividad.xml.flat",
         "source": "C:\\apps\\Mercallery-Pro\\app\\src\\main\\res\\layout\\activity_seleccion_actividad.xml"
@@ -98,6 +119,7 @@
     {
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
         "merged": "C:\\apps\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_detalles_persona.xml.flat",
         "source": "C:\\apps\\Mercallery-Pro\\app\\src\\main\\res\\layout\\activity_detalles_persona.xml"
@@ -110,6 +132,8 @@
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
         "merged": "C:\\apps\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
         "source": "C:\\apps\\Mercallery-Pro\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
@@ -117,23 +141,37 @@
         "merged": "C:\\apps\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
         "source": "C:\\apps\\Mercallery-Pro\\app\\src\\main\\res\\layout\\activity_main.xml"
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     },
     {
         "merged": "C:\\apps\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\drawable_logo.png.flat",
         "source": "C:\\apps\\Mercallery-Pro\\app\\src\\main\\res\\drawable\\logo.png"
-    },
-    {
-        "merged": "C:\\apps\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "C:\\apps\\Mercallery-Pro\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
 =======
     },
     {
         "merged": "C:\\apps\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\drawable_texture01.jpg.flat",
         "source": "C:\\apps\\Mercallery-Pro\\app\\src\\main\\res\\drawable\\texture01.jpg"
+>>>>>>> Stashed changes
     },
     {
         "merged": "C:\\apps\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
         "source": "C:\\apps\\Mercallery-Pro\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+<<<<<<< Updated upstream
+=======
+    },
+    {
+        "merged": "C:\\apps\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\drawable_texture01.jpg.flat",
+        "source": "C:\\apps\\Mercallery-Pro\\app\\src\\main\\res\\drawable\\texture01.jpg"
+=======
+    },
+    {
+        "merged": "C:\\apps\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\drawable_logo.png.flat",
+        "source": "C:\\apps\\Mercallery-Pro\\app\\src\\main\\res\\drawable\\logo.png"
+>>>>>>> Stashed changes
+    },
+    {
+        "merged": "C:\\apps\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\drawable_texture03.jpg.flat",
+        "source": "C:\\apps\\Mercallery-Pro\\app\\src\\main\\res\\drawable\\texture03.jpg"
     },
     {
         "merged": "C:\\apps\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\drawable_logo.png.flat",
@@ -158,12 +196,17 @@
     },
     {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         "merged": "C:\\apps\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\layout_my_list_itempersona.xml.flat",
         "source": "C:\\apps\\Mercallery-Pro\\app\\src\\main\\res\\layout\\my_list_itempersona.xml"
     },
     {
         "merged": "C:\\apps\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_seleccion_actividad.xml.flat",
         "source": "C:\\apps\\Mercallery-Pro\\app\\src\\main\\res\\layout\\activity_seleccion_actividad.xml"
+>>>>>>> Stashed changes
+=======
+        "merged": "C:\\apps\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\drawable_logo_s.png.flat",
+        "source": "C:\\apps\\Mercallery-Pro\\app\\src\\main\\res\\drawable\\logo_s.png"
 >>>>>>> Stashed changes
 =======
         "merged": "C:\\apps\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\drawable_logo_s.png.flat",

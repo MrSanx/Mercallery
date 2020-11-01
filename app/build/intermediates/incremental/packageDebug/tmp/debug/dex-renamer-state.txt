@@ -1,8 +1,12 @@
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 #Sun Nov 01 14:08:21 COT 2020
 =======
 #Sun Nov 01 14:04:46 COT 2020
+>>>>>>> Stashed changes
+=======
+#Sun Nov 01 14:22:00 COT 2020
 >>>>>>> Stashed changes
 =======
 #Sun Nov 01 14:22:00 COT 2020
