@@ -22,14 +22,6 @@ com/heklai/mercallery_pro/InsertarPersona.java
  com.heklai.mercallery_pro.InsertarPersona$2
  com.heklai.mercallery_pro.InsertarPersona$3
  com.heklai.mercallery_pro.InsertarPersona$4
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 com/heklai/mercallery_pro/VerPersonas.java
  com.heklai.mercallery_pro.VerPersonas
  com.heklai.mercallery_pro.VerPersonas$1
@@ -38,12 +30,5 @@ com/heklai/mercallery_pro/VerPersonas.java
  com.heklai.mercallery_pro.VerPersonas$3
 com/heklai/mercallery_pro/AdaptadorPersona.java
  com.heklai.mercallery_pro.AdaptadorPersona
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 com/heklai/mercallery_pro/MainActivity.java
  com.heklai.mercallery_pro.MainActivity

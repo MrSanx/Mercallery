@@ -1,16 +1,4 @@
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-#Sun Nov 01 14:08:21 COT 2020
-=======
-#Sun Nov 01 14:04:46 COT 2020
->>>>>>> Stashed changes
-=======
-#Sun Nov 01 14:22:00 COT 2020
->>>>>>> Stashed changes
-=======
-#Sun Nov 01 14:22:00 COT 2020
->>>>>>> Stashed changes
+#Sun Nov 01 14:31:13 COT 2020
 base.0=C\:\\apps\\Mercallery-Pro\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 path.1=classes.dex
 renamed.1=classes2.dex
