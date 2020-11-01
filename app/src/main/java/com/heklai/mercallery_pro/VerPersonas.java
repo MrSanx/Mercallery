@@ -61,6 +61,7 @@ public class VerPersonas extends AppCompatActivity {
                                 startActivity(new Intent(getApplicationContext(),EditarPersona.class).putExtra("position",position));
                                 break;
                             case 2:
+                                startActivity(new Intent(getApplicationContext(),EliminarPersona.class).putExtra("position",position));
                                 break;
 
                         }

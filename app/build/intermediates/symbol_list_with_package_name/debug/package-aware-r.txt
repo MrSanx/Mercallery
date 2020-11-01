@@ -2044,6 +2044,7 @@ layout abc_tooltip
 layout activity_crear
 layout activity_detalles_persona
 layout activity_editar_persona
+layout activity_eliminar_persona
 layout activity_insertar_obra
 layout activity_insertar_persona
 layout activity_main

@@ -21,6 +21,7 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.MercalleryPro" >
+        <activity android:name="com.heklai.mercallery_pro.EliminarPersona" />
         <activity android:name="com.heklai.mercallery_pro.EditarPersona" />
         <activity android:name="com.heklai.mercallery_pro.DetallesPersona" />
         <activity android:name="com.heklai.mercallery_pro.VerPersonas" />

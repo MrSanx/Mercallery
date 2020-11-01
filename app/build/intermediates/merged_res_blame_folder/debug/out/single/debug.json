@@ -72,6 +72,10 @@
         "source": "C:\\apps\\Mercallery-Pro\\app\\src\\main\\res\\layout\\activity_insertar_persona.xml"
     },
     {
+        "merged": "C:\\apps\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_eliminar_persona.xml.flat",
+        "source": "C:\\apps\\Mercallery-Pro\\app\\src\\main\\res\\layout\\activity_eliminar_persona.xml"
+    },
+    {
         "merged": "C:\\apps\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
         "source": "C:\\apps\\Mercallery-Pro\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
