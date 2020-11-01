@@ -21,6 +21,7 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.MercalleryPro" >
+        <activity android:name="com.heklai.mercallery_pro.InsertarObra" />
         <activity android:name="com.heklai.mercallery_pro.ActivityCrear" />
         <activity android:name="com.heklai.mercallery_pro.SeleccionActividad" />
         <activity android:name="com.heklai.mercallery_pro.InsertarPersona" />

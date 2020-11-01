@@ -18,4 +18,8 @@ public class ActivityCrear extends AppCompatActivity {
         Intent next = new Intent(this, InsertarPersona.class);
         startActivity(next);
     }
+    public void siguienteObra(View view){
+        Intent siguientito = new Intent(this, InsertarObra.class);
+        startActivity(siguientito);
+    }
 }
