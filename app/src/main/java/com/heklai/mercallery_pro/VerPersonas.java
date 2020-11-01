@@ -47,7 +47,7 @@ public class VerPersonas extends AppCompatActivity {
                 AlertDialog.Builder builder= new AlertDialog.Builder(view.getContext());
                 ProgressDialog progressDialog= new ProgressDialog(view.getContext());
 
-                CharSequence[] dialogItem= {"Ver Datos", "Eliminar Datos","A"};
+                CharSequence[] dialogItem= {"Ver Datos", "Modificar Datos","Eliminar (A)"};
                 builder.setTitle(personas.get(position).getNombre());
                 builder.setItems(dialogItem, new DialogInterface.OnClickListener() {
                     @Override
@@ -58,6 +58,7 @@ public class VerPersonas extends AppCompatActivity {
 
                                 break;
                             case 1:
+                                startActivity(new Intent(getApplicationContext(),EditarPersona.class).putExtra("position",position));
                                 break;
                             case 2:
                                 break;

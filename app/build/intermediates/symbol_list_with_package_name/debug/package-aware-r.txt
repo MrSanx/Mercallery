@@ -1679,7 +1679,6 @@ id bounce
 id button
 id button2
 id button3
-id button4
 id button5
 id button6
 id buttonPanel
@@ -2044,6 +2043,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_crear
 layout activity_detalles_persona
+layout activity_editar_persona
 layout activity_insertar_obra
 layout activity_insertar_persona
 layout activity_main

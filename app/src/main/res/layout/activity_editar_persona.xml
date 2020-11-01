@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditarPersona">
+
+    <TextView
+        android:id="@+id/idPersona"
+        android:layout_width="61dp"
+        android:layout_height="22dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginLeft="150dp"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.42"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <EditText
+        android:id="@+id/NombreP"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="12dp"
+        tools:layout_editor_absoluteX="93dp"
+        tools:layout_editor_absoluteY="79dp" />
+
+    <EditText
+        android:id="@+id/DocumentoP"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="25dp"
+        app:layout_constraintTop_toBottomOf="@+id/NombreP"
+        tools:layout_editor_absoluteX="93dp" />
+
+    <Spinner
+        android:id="@+id/tipoPersona"
+        android:layout_width="254dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="15dp"
+        tools:layout_editor_absoluteX="78dp"
+        tools:layout_editor_absoluteY="224dp" />
+    <Button
+        android:id="@+id/fecha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:layout_marginLeft="100dp"
+        android:text="Seleccion Fecha"
+        app:layout_constraintTop_toBottomOf="@+id/tipoPersona"
+        tools:layout_editor_absoluteX="93dp" />
+
+    <TextView
+        android:id="@+id/fechaTexto"
+        android:layout_width="61dp"
+        android:layout_height="22dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginLeft="150dp"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.42"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <Button
+        android:id="@+id/registrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginLeft="120dp"
+        android:onClick="actualizar"
+        android:text="Modificar"
+        app:layout_constraintTop_toBottomOf="@+id/fechaN"
+        tools:layout_editor_absoluteX="147dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

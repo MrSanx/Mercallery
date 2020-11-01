@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\apps\Mercallery-Pro\app\src\main\AndroidManifest.xml:2:1-30:12
-INJECTED from C:\apps\Mercallery-Pro\app\src\main\AndroidManifest.xml:2:1-30:12
-INJECTED from C:\apps\Mercallery-Pro\app\src\main\AndroidManifest.xml:2:1-30:12
-INJECTED from C:\apps\Mercallery-Pro\app\src\main\AndroidManifest.xml:2:1-30:12
+ADDED from C:\apps\Mercallery-Pro\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\apps\Mercallery-Pro\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\apps\Mercallery-Pro\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\apps\Mercallery-Pro\app\src\main\AndroidManifest.xml:2:1-31:12
 MERGED from [com.google.android.material:material:1.2.1] C:\Users\mafc1\.gradle\caches\transforms-2\files-2.1\b988cdf40af7cdf3e0317011f8e5bfe7\material-1.2.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\mafc1\.gradle\caches\transforms-2\files-2.1\ec4dd897d4037390d3cac18fc3984d5c\constraintlayout-2.0.4\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\mafc1\.gradle\caches\transforms-2\files-2.1\a527ad4f532df6b258c428a911debd89\appcompat-1.2.0\AndroidManifest.xml:17:1-24:12
@@ -33,20 +33,20 @@ MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\mafc1\.gradle
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\mafc1\.gradle\caches\transforms-2\files-2.1\af090a78eaea8296976d6555a3a135f2\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\mafc1\.gradle\caches\transforms-2\files-2.1\4277c449ae4e7defb11901a027a49277\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\mafc1\.gradle\caches\transforms-2\files-2.1\01339aeadc2379d14234ec1725fb1d1d\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\apps\Mercallery-Pro\app\src\main\AndroidManifest.xml:2:1-30:12
-INJECTED from C:\apps\Mercallery-Pro\app\src\main\AndroidManifest.xml:2:1-30:12
-INJECTED from C:\apps\Mercallery-Pro\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from C:\apps\Mercallery-Pro\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\apps\Mercallery-Pro\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\apps\Mercallery-Pro\app\src\main\AndroidManifest.xml:2:1-31:12
 	package
 		ADDED from C:\apps\Mercallery-Pro\app\src\main\AndroidManifest.xml:3:5-40
 		INJECTED from C:\apps\Mercallery-Pro\app\src\main\AndroidManifest.xml
 		INJECTED from C:\apps\Mercallery-Pro\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\apps\Mercallery-Pro\app\src\main\AndroidManifest.xml
-		ADDED from C:\apps\Mercallery-Pro\app\src\main\AndroidManifest.xml:2:1-30:12
+		ADDED from C:\apps\Mercallery-Pro\app\src\main\AndroidManifest.xml:2:1-31:12
 		INJECTED from C:\apps\Mercallery-Pro\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\apps\Mercallery-Pro\app\src\main\AndroidManifest.xml
-		ADDED from C:\apps\Mercallery-Pro\app\src\main\AndroidManifest.xml:2:1-30:12
+		ADDED from C:\apps\Mercallery-Pro\app\src\main\AndroidManifest.xml:2:1-31:12
 		INJECTED from C:\apps\Mercallery-Pro\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\apps\Mercallery-Pro\app\src\main\AndroidManifest.xml:2:11-69
@@ -59,7 +59,7 @@ ADDED from C:\apps\Mercallery-Pro\app\src\main\AndroidManifest.xml:6:5-67
 	android:name
 		ADDED from C:\apps\Mercallery-Pro\app\src\main\AndroidManifest.xml:6:22-64
 application
-ADDED from C:\apps\Mercallery-Pro\app\src\main\AndroidManifest.xml:8:5-28:19
+ADDED from C:\apps\Mercallery-Pro\app\src\main\AndroidManifest.xml:8:5-29:19
 MERGED from [com.google.android.material:material:1.2.1] C:\Users\mafc1\.gradle\caches\transforms-2\files-2.1\b988cdf40af7cdf3e0317011f8e5bfe7\material-1.2.1\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.2.1] C:\Users\mafc1\.gradle\caches\transforms-2\files-2.1\b988cdf40af7cdf3e0317011f8e5bfe7\material-1.2.1\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\mafc1\.gradle\caches\transforms-2\files-2.1\ec4dd897d4037390d3cac18fc3984d5c\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
@@ -84,44 +84,48 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\ma
 		ADDED from C:\apps\Mercallery-Pro\app\src\main\AndroidManifest.xml:9:9-35
 	android:theme
 		ADDED from C:\apps\Mercallery-Pro\app\src\main\AndroidManifest.xml:14:9-51
+activity#com.heklai.mercallery_pro.EditarPersona
+ADDED from C:\apps\Mercallery-Pro\app\src\main\AndroidManifest.xml:15:9-60
+	android:name
+		ADDED from C:\apps\Mercallery-Pro\app\src\main\AndroidManifest.xml:15:19-48
 activity#com.heklai.mercallery_pro.DetallesPersona
-ADDED from C:\apps\Mercallery-Pro\app\src\main\AndroidManifest.xml:15:9-62
+ADDED from C:\apps\Mercallery-Pro\app\src\main\AndroidManifest.xml:16:9-53
 	android:name
-		ADDED from C:\apps\Mercallery-Pro\app\src\main\AndroidManifest.xml:15:19-50
+		ADDED from C:\apps\Mercallery-Pro\app\src\main\AndroidManifest.xml:16:19-50
 activity#com.heklai.mercallery_pro.VerPersonas
-ADDED from C:\apps\Mercallery-Pro\app\src\main\AndroidManifest.xml:16:9-49
+ADDED from C:\apps\Mercallery-Pro\app\src\main\AndroidManifest.xml:17:9-49
 	android:name
-		ADDED from C:\apps\Mercallery-Pro\app\src\main\AndroidManifest.xml:16:19-46
+		ADDED from C:\apps\Mercallery-Pro\app\src\main\AndroidManifest.xml:17:19-46
 activity#com.heklai.mercallery_pro.InsertarObra
-ADDED from C:\apps\Mercallery-Pro\app\src\main\AndroidManifest.xml:17:9-50
+ADDED from C:\apps\Mercallery-Pro\app\src\main\AndroidManifest.xml:18:9-50
 	android:name
-		ADDED from C:\apps\Mercallery-Pro\app\src\main\AndroidManifest.xml:17:19-47
+		ADDED from C:\apps\Mercallery-Pro\app\src\main\AndroidManifest.xml:18:19-47
 activity#com.heklai.mercallery_pro.ActivityCrear
-ADDED from C:\apps\Mercallery-Pro\app\src\main\AndroidManifest.xml:18:9-51
+ADDED from C:\apps\Mercallery-Pro\app\src\main\AndroidManifest.xml:19:9-51
 	android:name
-		ADDED from C:\apps\Mercallery-Pro\app\src\main\AndroidManifest.xml:18:19-48
+		ADDED from C:\apps\Mercallery-Pro\app\src\main\AndroidManifest.xml:19:19-48
 activity#com.heklai.mercallery_pro.SeleccionActividad
-ADDED from C:\apps\Mercallery-Pro\app\src\main\AndroidManifest.xml:19:9-56
+ADDED from C:\apps\Mercallery-Pro\app\src\main\AndroidManifest.xml:20:9-56
 	android:name
-		ADDED from C:\apps\Mercallery-Pro\app\src\main\AndroidManifest.xml:19:19-53
+		ADDED from C:\apps\Mercallery-Pro\app\src\main\AndroidManifest.xml:20:19-53
 activity#com.heklai.mercallery_pro.InsertarPersona
-ADDED from C:\apps\Mercallery-Pro\app\src\main\AndroidManifest.xml:20:9-53
+ADDED from C:\apps\Mercallery-Pro\app\src\main\AndroidManifest.xml:21:9-53
 	android:name
-		ADDED from C:\apps\Mercallery-Pro\app\src\main\AndroidManifest.xml:20:19-50
+		ADDED from C:\apps\Mercallery-Pro\app\src\main\AndroidManifest.xml:21:19-50
 activity#com.heklai.mercallery_pro.MainActivity
-ADDED from C:\apps\Mercallery-Pro\app\src\main\AndroidManifest.xml:21:9-27:20
+ADDED from C:\apps\Mercallery-Pro\app\src\main\AndroidManifest.xml:22:9-28:20
 	android:name
-		ADDED from C:\apps\Mercallery-Pro\app\src\main\AndroidManifest.xml:21:19-47
+		ADDED from C:\apps\Mercallery-Pro\app\src\main\AndroidManifest.xml:22:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\apps\Mercallery-Pro\app\src\main\AndroidManifest.xml:22:13-26:29
+ADDED from C:\apps\Mercallery-Pro\app\src\main\AndroidManifest.xml:23:13-27:29
 action#android.intent.action.MAIN
-ADDED from C:\apps\Mercallery-Pro\app\src\main\AndroidManifest.xml:23:17-69
+ADDED from C:\apps\Mercallery-Pro\app\src\main\AndroidManifest.xml:24:17-69
 	android:name
-		ADDED from C:\apps\Mercallery-Pro\app\src\main\AndroidManifest.xml:23:25-66
+		ADDED from C:\apps\Mercallery-Pro\app\src\main\AndroidManifest.xml:24:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\apps\Mercallery-Pro\app\src\main\AndroidManifest.xml:25:17-77
+ADDED from C:\apps\Mercallery-Pro\app\src\main\AndroidManifest.xml:26:17-77
 	android:name
-		ADDED from C:\apps\Mercallery-Pro\app\src\main\AndroidManifest.xml:25:27-74
+		ADDED from C:\apps\Mercallery-Pro\app\src\main\AndroidManifest.xml:26:27-74
 uses-sdk
 INJECTED from C:\apps\Mercallery-Pro\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\apps\Mercallery-Pro\app\src\main\AndroidManifest.xml
