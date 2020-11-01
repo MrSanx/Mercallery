@@ -1548,6 +1548,8 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable logo
+drawable logo_s
 drawable material_ic_calendar_black_24dp
 drawable material_ic_clear_black_24dp
 drawable material_ic_edit_black_24dp
@@ -1578,6 +1580,10 @@ drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable test_custom_background
+drawable texture01
+drawable texture02
+drawable texture03
+drawable texture04
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 id ALT
@@ -1771,6 +1777,7 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imageView
 id info
 id invisible
 id italic
@@ -1886,6 +1893,7 @@ id shortcut
 id showCustom
 id showHome
 id showTitle
+id signup
 id sin
 id skipCollapsed
 id slide
