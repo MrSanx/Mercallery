@@ -32,6 +32,10 @@
         "source": "C:\\apps\\Mercallery-Pro\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
+        "merged": "C:\\apps\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_ver.xml.flat",
+        "source": "C:\\apps\\Mercallery-Pro\\app\\src\\main\\res\\layout\\activity_ver.xml"
+    },
+    {
         "merged": "C:\\apps\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
         "source": "C:\\apps\\Mercallery-Pro\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
     },

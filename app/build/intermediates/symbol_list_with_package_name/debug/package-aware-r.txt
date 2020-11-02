@@ -2049,6 +2049,7 @@ layout activity_insertar_obra
 layout activity_insertar_persona
 layout activity_main
 layout activity_seleccion_actividad
+layout activity_ver
 layout activity_ver_personas
 layout custom_dialog
 layout design_bottom_navigation_item
