@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.DatePickerDialog;
 import android.app.ProgressDialog;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ArrayAdapter;
@@ -29,76 +30,102 @@ import java.util.Map;
 public class InsertarObra extends AppCompatActivity {
 
 
-    EditText nombrePersona,precioObra;
-    TextView fechaN;
-
-    Button registrar, fechaO;
-    Spinner estado;
+    EditText nombrePersona, precioObra;
+    TextView fechaN, id, nombreArt;
+    Button registrar, fechaO, artistaGet;
+    Spinner estado, persona;
     Calendar c;
     DatePickerDialog dpd;
+    static final int REQUEST_CODE = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_insertar_obra);
 
-        estado =findViewById(R.id.estadoObra);
-        String[] items = new String[]{"En Exposicion","Almacen","Vendida"};
+        estado = findViewById(R.id.estadoObra);
+        String[] items = new String[]{"En Exposicion", "Almacen", "Vendida"};
         ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_spinner_dropdown_item, items);
         estado.setAdapter(adapter);
 
-        nombrePersona= findViewById(R.id.NombreP);
+        nombrePersona = findViewById(R.id.NombreP);
         precioObra = findViewById(R.id.precio);
-        fechaN= findViewById(R.id.fechaTexto);
-        fechaO= findViewById(R.id.fecha);
+        fechaN = findViewById(R.id.fechaTexto);
+        id = findViewById(R.id.id);
+        nombreArt = findViewById(R.id.nombreArt);
 
+        fechaO = findViewById(R.id.fecha);
         fechaO.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                c= Calendar.getInstance();
+                c = Calendar.getInstance();
                 int day = c.get(Calendar.DAY_OF_MONTH);
                 int month = c.get(Calendar.MONTH);
-                int year= c.get(Calendar.YEAR);
+                int year = c.get(Calendar.YEAR);
 
-                dpd= new DatePickerDialog(InsertarObra.this, new DatePickerDialog.OnDateSetListener() {
+                dpd = new DatePickerDialog(InsertarObra.this, new DatePickerDialog.OnDateSetListener() {
                     @Override
-                    public void onDateSet(DatePicker datePicker, int mYear , int mMonth, int mDay ) {
-                        fechaN.setText(mDay+"/"+(mMonth+1)+"/"+mYear);
+                    public void onDateSet(DatePicker datePicker, int mYear, int mMonth, int mDay) {
+                        fechaN.setText(mDay + "/" + (mMonth + 1) + "/" + mYear);
                     }
-                },day,month,year);
+                }, day, month, year);
                 dpd.show();
             }
+        });
 
-        }
-        );
-
-        registrar= findViewById(R.id.registrar);
+        registrar = findViewById(R.id.ingresar);
         registrar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 insertar();
             }
         });
+        artistaGet = findViewById(R.id.verArtista);
+        artistaGet.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivityForResult(new Intent(InsertarObra.this, VerArtista.class), REQUEST_CODE);
+            }
+        });
 
 
     }
 
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        if (requestCode == REQUEST_CODE) {
+            if (resultCode == RESULT_OK) {
+
+                int position = data.getExtras().getInt("position");
+                id.setText(VerArtista.personas.get(position).getIdPersona());
+                nombreArt.setText(VerArtista.personas.get(position).getNombre());
+
+            }
+            if (resultCode == RESULT_CANCELED) {
+                Toast.makeText(InsertarObra.this, "Error al Selccionar Artista", Toast.LENGTH_LONG).show();
+                ;
+            }
+        }
+    }
+
     private void insertar() {
 
-        String nombre= nombrePersona.getText().toString().trim();
-        String precioO= precioObra.getText().toString().trim();
+        String idPersona = id.getText().toString().trim();
+        String nombre = nombrePersona.getText().toString().trim();
+        String precioO = precioObra.getText().toString().trim();
         String fecha = fechaN.getText().toString().trim();
-        String estadoO= estado.getSelectedItem().toString();
+        String estadoO = estado.getSelectedItem().toString().trim();
 
-        ProgressDialog progressDialog= new ProgressDialog(this);
-        if(nombre.isEmpty()){
+        ProgressDialog progressDialog = new ProgressDialog(this);
+        if (nombre.isEmpty()) {
             nombrePersona.setError("Complete todos los campos");
-        } else if(precioO.isEmpty()){
+        } else if (precioO.isEmpty()) {
             precioObra.setError("Complete todos los campos");
-        }else{
+        } else {
             progressDialog.show();
 
-            StringRequest request= new StringRequest(Request.Method.POST, "https://galeriabd.000webhostapp.com/crud/conexionDB.php", new Response.Listener<String>() {
+            StringRequest request = new StringRequest(Request.Method.POST, "https://galeriabd.000webhostapp.com/crud/conexionDBPieza.php", new Response.Listener<String>() {
                 @Override
                 public void onResponse(String response) {
                     if (response.equalsIgnoreCase("Datos Insertados")) {
@@ -112,14 +139,15 @@ public class InsertarObra extends AppCompatActivity {
             }, new Response.ErrorListener() {
                 @Override
                 public void onErrorResponse(VolleyError error) {
-                    Toast.makeText(InsertarObra.this, error.getMessage(),Toast.LENGTH_SHORT).show();
+                    Toast.makeText(InsertarObra.this, error.getMessage(), Toast.LENGTH_SHORT).show();
                     progressDialog.dismiss();
                 }
-            }){
+            }) {
                 @Override
                 protected Map<String, String> getParams() throws AuthFailureError {
-                    Map<String,String>params= new HashMap<String, String>();
+                    Map<String, String> params = new HashMap<String, String>();
 
+                    params.put("idPersona", idPersona);
                     params.put("nombre", nombre);
                     params.put("precio", precioO);
                     params.put("fechaRealizacion", fecha);
@@ -128,7 +156,7 @@ public class InsertarObra extends AppCompatActivity {
                     return params;
                 }
             };
-            RequestQueue requestQueue= Volley.newRequestQueue(InsertarObra.this);
+            RequestQueue requestQueue = Volley.newRequestQueue(InsertarObra.this);
             requestQueue.add(request);
 
 

@@ -1592,6 +1592,7 @@ id BOTTOM_START
 id CTRL
 id DocumentoP
 id FUNCTION
+id ListViewArtista
 id ListViewPersonas
 id META
 id NO_DEBUG
@@ -1742,6 +1743,7 @@ id edit_query
 id end
 id enterAlways
 id enterAlwaysCollapsed
+id estado
 id estadoObra
 id exitUntilCollapsed
 id expand_activities_button
@@ -1749,6 +1751,7 @@ id expanded_menu
 id fade
 id fecha
 id fechaN
+id fechaR
 id fechaTexto
 id fill
 id fill_horizontal
@@ -1773,7 +1776,11 @@ id homeAsUp
 id honorRequest
 id icon
 id icon_group
+id id
+id idObra
+id idObraEliminar
 id idPersona
+id idPieza
 id idTipo
 id ifRoom
 id ignore
@@ -1781,6 +1788,7 @@ id ignoreRequest
 id image
 id imageView
 id info
+id ingresar
 id invisible
 id italic
 id item_touch_helper_previous_elevation
@@ -1794,6 +1802,7 @@ id line1
 id line3
 id linear
 id listMode
+id listObra
 id list_item
 id loading
 id login
@@ -1834,6 +1843,8 @@ id navigation_header_container
 id never
 id noScroll
 id nombre
+id nombreArt
+id nombreO
 id none
 id normal
 id notification_background
@@ -1974,6 +1985,7 @@ id unlabeled
 id up
 id useLogo
 id username
+id verArtista
 id view_offset_helper
 id visible
 id withText
@@ -2042,14 +2054,19 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_crear
+layout activity_detalles_obra
 layout activity_detalles_persona
+layout activity_editar_obra
 layout activity_editar_persona
+layout activity_eliminar_obra
 layout activity_eliminar_persona
 layout activity_insertar_obra
 layout activity_insertar_persona
 layout activity_main
 layout activity_seleccion_actividad
 layout activity_ver
+layout activity_ver_artista
+layout activity_ver_obra
 layout activity_ver_personas
 layout custom_dialog
 layout design_bottom_navigation_item
@@ -2095,6 +2112,7 @@ layout mtrl_picker_header_title_text
 layout mtrl_picker_header_toggle
 layout mtrl_picker_text_input_date
 layout mtrl_picker_text_input_date_range
+layout my_list_itemobra
 layout my_list_itempersona
 layout notification_action
 layout notification_action_tombstone

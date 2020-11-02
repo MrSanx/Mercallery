@@ -19,7 +19,7 @@ public class ActivityVer extends AppCompatActivity {
         startActivity(siguiente);
     }
     public void siguienteObra(View view){
-        //Intent siguientito = new Intent(this, VerObras.class);
-        //startActivity(siguientito);
+        Intent siguientito = new Intent(this, VerObra.class);
+        startActivity(siguientito);
     }
 }

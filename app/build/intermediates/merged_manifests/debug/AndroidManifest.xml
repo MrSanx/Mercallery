@@ -21,6 +21,12 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.MercalleryPro" >
+        <activity android:name="com.heklai.mercallery_pro.EliminarObra" />
+        <activity android:name="com.heklai.mercallery_pro.EditarObra" />
+        <activity android:name="com.heklai.mercallery_pro.DetallesObra" />
+        <activity android:name="com.heklai.mercallery_pro.VerObra" />
+        <activity android:name="com.heklai.mercallery_pro.AdaptadorObra" />
+        <activity android:name="com.heklai.mercallery_pro.VerArtista" />
         <activity android:name="com.heklai.mercallery_pro.ActivityVer" />
         <activity android:name="com.heklai.mercallery_pro.EliminarPersona" />
         <activity android:name="com.heklai.mercallery_pro.EditarPersona" />
