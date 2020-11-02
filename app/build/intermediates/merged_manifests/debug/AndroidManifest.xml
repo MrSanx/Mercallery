@@ -21,6 +21,10 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.MercalleryPro" >
+        <activity android:name="com.heklai.mercallery_pro.VerVenta" />
+        <activity android:name="com.heklai.mercallery_pro.VerCliente" />
+        <activity android:name="com.heklai.mercallery_pro.VerObraVenta" />
+        <activity android:name="com.heklai.mercallery_pro.InsertarVenta" />
         <activity android:name="com.heklai.mercallery_pro.EliminarObra" />
         <activity android:name="com.heklai.mercallery_pro.EditarObra" />
         <activity android:name="com.heklai.mercallery_pro.DetallesObra" />

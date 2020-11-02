@@ -22,4 +22,8 @@ public class ActivityCrear extends AppCompatActivity {
         Intent siguientito = new Intent(this, InsertarObra.class);
         startActivity(siguientito);
     }
+    public void siguienteVenta(View view){
+        Intent dale = new Intent(this, InsertarVenta.class);
+        startActivity(dale);
+    }
 }

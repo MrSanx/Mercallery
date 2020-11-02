@@ -44,6 +44,10 @@
         "source": "C:\\apps\\Mercallery-Pro\\app\\src\\main\\res\\layout\\activity_ver.xml"
     },
     {
+        "merged": "C:\\apps\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_ver_venta.xml.flat",
+        "source": "C:\\apps\\Mercallery-Pro\\app\\src\\main\\res\\layout\\activity_ver_venta.xml"
+    },
+    {
         "merged": "C:\\apps\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
         "source": "C:\\apps\\Mercallery-Pro\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
     },
@@ -60,8 +64,16 @@
         "source": "C:\\apps\\Mercallery-Pro\\app\\src\\main\\res\\layout\\activity_seleccion_actividad.xml"
     },
     {
+        "merged": "C:\\apps\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_insertar_venta.xml.flat",
+        "source": "C:\\apps\\Mercallery-Pro\\app\\src\\main\\res\\layout\\activity_insertar_venta.xml"
+    },
+    {
         "merged": "C:\\apps\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
         "source": "C:\\apps\\Mercallery-Pro\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\apps\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_ver_obra_venta.xml.flat",
+        "source": "C:\\apps\\Mercallery-Pro\\app\\src\\main\\res\\layout\\activity_ver_obra_venta.xml"
     },
     {
         "merged": "C:\\apps\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
@@ -104,6 +116,10 @@
         "source": "C:\\apps\\Mercallery-Pro\\app\\src\\main\\res\\layout\\my_list_itemobra.xml"
     },
     {
+        "merged": "C:\\apps\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\layout_my_list_itemventa.xml.flat",
+        "source": "C:\\apps\\Mercallery-Pro\\app\\src\\main\\res\\layout\\my_list_itemventa.xml"
+    },
+    {
         "merged": "C:\\apps\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\drawable_texture01.jpg.flat",
         "source": "C:\\apps\\Mercallery-Pro\\app\\src\\main\\res\\drawable\\texture01.jpg"
     },
@@ -138,6 +154,10 @@
     {
         "merged": "C:\\apps\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_eliminar_obra.xml.flat",
         "source": "C:\\apps\\Mercallery-Pro\\app\\src\\main\\res\\layout\\activity_eliminar_obra.xml"
+    },
+    {
+        "merged": "C:\\apps\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_ver_cliente.xml.flat",
+        "source": "C:\\apps\\Mercallery-Pro\\app\\src\\main\\res\\layout\\activity_ver_cliente.xml"
     },
     {
         "merged": "C:\\apps\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",

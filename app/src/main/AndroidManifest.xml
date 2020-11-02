@@ -12,7 +12,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MercalleryPro">
-        <activity android:name=".EliminarObra"></activity>
+        <activity android:name=".VerVenta"></activity>
+        <activity android:name=".VerCliente" />
+        <activity android:name=".VerObraVenta" />
+        <activity android:name=".InsertarVenta" />
+        <activity android:name=".EliminarObra" />
         <activity android:name=".EditarObra" />
         <activity android:name=".DetallesObra" />
         <activity android:name=".VerObra" />

@@ -22,4 +22,8 @@ public class ActivityVer extends AppCompatActivity {
         Intent siguientito = new Intent(this, VerObra.class);
         startActivity(siguientito);
     }
+    public void siguienteVerVenta(View view){
+        Intent dalenext = new Intent(this, VerVenta.class);
+        startActivity(dalenext);
+    }
 }

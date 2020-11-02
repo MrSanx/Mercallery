@@ -5,10 +5,25 @@ com/heklai/mercallery_pro/EliminarPersona.java
  com.heklai.mercallery_pro.EliminarPersona$1
  com.heklai.mercallery_pro.EliminarPersona$2
  com.heklai.mercallery_pro.EliminarPersona$3
-com/heklai/mercallery_pro/Persona.java
- com.heklai.mercallery_pro.Persona
+com/heklai/mercallery_pro/VerVenta.java
+ com.heklai.mercallery_pro.VerVenta
+ com.heklai.mercallery_pro.VerVenta$1
+ com.heklai.mercallery_pro.VerVenta$2
 com/heklai/mercallery_pro/ActivityVer.java
  com.heklai.mercallery_pro.ActivityVer
+com/heklai/mercallery_pro/InsertarVenta.java
+ com.heklai.mercallery_pro.InsertarVenta
+ com.heklai.mercallery_pro.InsertarVenta$1
+ com.heklai.mercallery_pro.InsertarVenta$1$1
+ com.heklai.mercallery_pro.InsertarVenta$10
+ com.heklai.mercallery_pro.InsertarVenta$2
+ com.heklai.mercallery_pro.InsertarVenta$3
+ com.heklai.mercallery_pro.InsertarVenta$4
+ com.heklai.mercallery_pro.InsertarVenta$5
+ com.heklai.mercallery_pro.InsertarVenta$6
+ com.heklai.mercallery_pro.InsertarVenta$7
+ com.heklai.mercallery_pro.InsertarVenta$8
+ com.heklai.mercallery_pro.InsertarVenta$9
 com/heklai/mercallery_pro/SeleccionActividad.java
  com.heklai.mercallery_pro.SeleccionActividad
 com/heklai/mercallery_pro/EliminarObra.java
@@ -16,6 +31,24 @@ com/heklai/mercallery_pro/EliminarObra.java
  com.heklai.mercallery_pro.EliminarObra$1
  com.heklai.mercallery_pro.EliminarObra$2
  com.heklai.mercallery_pro.EliminarObra$3
+com/heklai/mercallery_pro/AdaptadorObra.java
+ com.heklai.mercallery_pro.AdaptadorObra
+com/heklai/mercallery_pro/MainActivity.java
+ com.heklai.mercallery_pro.MainActivity
+com/heklai/mercallery_pro/VerCliente.java
+ com.heklai.mercallery_pro.VerCliente
+ com.heklai.mercallery_pro.VerCliente$1
+ com.heklai.mercallery_pro.VerCliente$1$1
+ com.heklai.mercallery_pro.VerCliente$2
+ com.heklai.mercallery_pro.VerCliente$3
+com/heklai/mercallery_pro/VerArtista.java
+ com.heklai.mercallery_pro.VerArtista
+ com.heklai.mercallery_pro.VerArtista$1
+ com.heklai.mercallery_pro.VerArtista$1$1
+ com.heklai.mercallery_pro.VerArtista$2
+ com.heklai.mercallery_pro.VerArtista$3
+com/heklai/mercallery_pro/Persona.java
+ com.heklai.mercallery_pro.Persona
 com/heklai/mercallery_pro/VerPersonas.java
  com.heklai.mercallery_pro.VerPersonas
  com.heklai.mercallery_pro.VerPersonas$1
@@ -29,10 +62,14 @@ com/heklai/mercallery_pro/EditarPersona.java
  com.heklai.mercallery_pro.EditarPersona$2
  com.heklai.mercallery_pro.EditarPersona$3
  com.heklai.mercallery_pro.EditarPersona$4
-com/heklai/mercallery_pro/AdaptadorObra.java
- com.heklai.mercallery_pro.AdaptadorObra
-com/heklai/mercallery_pro/MainActivity.java
- com.heklai.mercallery_pro.MainActivity
+com/heklai/mercallery_pro/VerObraVenta.java
+ com.heklai.mercallery_pro.VerObraVenta
+ com.heklai.mercallery_pro.VerObraVenta$1
+ com.heklai.mercallery_pro.VerObraVenta$1$1
+ com.heklai.mercallery_pro.VerObraVenta$2
+ com.heklai.mercallery_pro.VerObraVenta$3
+com/heklai/mercallery_pro/AdaptadorVenta.java
+ com.heklai.mercallery_pro.AdaptadorVenta
 com/heklai/mercallery_pro/BuildConfig.java
  com.heklai.mercallery_pro.BuildConfig
 com/heklai/mercallery_pro/ActivityCrear.java
@@ -60,16 +97,12 @@ com/heklai/mercallery_pro/InsertarPersona.java
  com.heklai.mercallery_pro.InsertarPersona$2
  com.heklai.mercallery_pro.InsertarPersona$3
  com.heklai.mercallery_pro.InsertarPersona$4
-com/heklai/mercallery_pro/VerArtista.java
- com.heklai.mercallery_pro.VerArtista
- com.heklai.mercallery_pro.VerArtista$1
- com.heklai.mercallery_pro.VerArtista$1$1
- com.heklai.mercallery_pro.VerArtista$2
- com.heklai.mercallery_pro.VerArtista$3
 com/heklai/mercallery_pro/Obra.java
  com.heklai.mercallery_pro.Obra
 com/heklai/mercallery_pro/AdaptadorPersona.java
  com.heklai.mercallery_pro.AdaptadorPersona
+com/heklai/mercallery_pro/Venta.java
+ com.heklai.mercallery_pro.Venta
 com/heklai/mercallery_pro/EditarObra.java
  com.heklai.mercallery_pro.EditarObra
  com.heklai.mercallery_pro.EditarObra$1

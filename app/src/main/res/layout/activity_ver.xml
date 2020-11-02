@@ -28,5 +28,14 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button2" />
 
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="siguienteVerVenta"
+        android:text="Ver ventas"
+        tools:layout_editor_absoluteX="143dp"
+        tools:layout_editor_absoluteY="341dp" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

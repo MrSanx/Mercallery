@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/idVenta"
+        android:layout_width="190dp"
+        android:layout_height="36dp"
+        android:gravity="center_vertical|center"
+        android:text="1"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></TextView>
+
+    <TextView
+        android:id="@+id/nombre"
+        android:layout_width="239dp"
+        android:layout_height="40dp"
+        android:gravity="center_vertical|center"
+        android:text="nombre"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tipoPersona"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="158dp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/nombre2"
+        android:layout_width="239dp"
+        android:layout_height="40dp"
+        android:gravity="center_vertical|center"
+        android:text="nombre"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nombre"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="225dp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/tipoPersona"
+        android:layout_width="106dp"
+        android:layout_height="40dp"
+        android:gravity="center_vertical|center"
+        android:text="Tipo"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idVenta"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="64dp">
+
+    </TextView>
+</androidx.constraintlayout.widget.ConstraintLayout>
