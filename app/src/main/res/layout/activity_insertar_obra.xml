@@ -4,103 +4,127 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".InsertarObra">
+    tools:context=".InsertarObra"
+    android:orientation="vertical"
+    android:background="@drawable/texture01">
 
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:background="@color/white"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="20dp">
 
-    <EditText
-        android:id="@+id/NombreP"
-        android:layout_width="199dp"
-        android:layout_height="27dp"
-        android:layout_marginTop="44dp"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="87dp" />
+        <EditText
+            android:id="@+id/NombreP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
-    <EditText
-        android:id="@+id/precio"
-        android:layout_width="199dp"
-        android:layout_height="27dp"
-        android:layout_marginBottom="48dp"
-        app:layout_constraintBottom_toTopOf="@+id/verArtista"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.92"
-        tools:layout_editor_absoluteX="87dp" />
+        <EditText
+            android:id="@+id/precio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/NombreP" />
 
-    <Button
-        android:id="@+id/registrar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Registrar"
-        tools:layout_editor_absoluteX="147dp"
-        tools:layout_editor_absoluteY="652dp" />
+        <Button
+            android:id="@+id/registrar"
+            android:layout_width="26dp"
+            android:layout_height="21dp"
+            android:text="Registrar"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
 
-    <Button
-        android:id="@+id/fecha"
-        android:layout_width="181dp"
-        android:layout_height="47dp"
-        android:layout_marginBottom="260dp"
-        android:text="Seleccion Fecha"
-        app:layout_constraintBottom_toBottomOf="parent"
-        tools:layout_editor_absoluteX="82dp" />
+        <Button
+            android:id="@+id/fecha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:text="Seleccion Fecha"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/id" />
 
-    <TextView
-        android:id="@+id/fechaTexto"
-        android:layout_width="61dp"
-        android:layout_height="22dp"
-        android:layout_marginTop="9dp"
-        android:text=""
-        app:layout_constraintTop_toBottomOf="@+id/fecha"
-        tools:layout_editor_absoluteX="164dp" />
+        <TextView
+            android:id="@+id/fechaTexto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="20dp"
+            android:text=""
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/fecha" />
 
-    <Spinner
-        android:id="@+id/estadoObra"
-        android:layout_width="254dp"
-        android:layout_height="34dp"
-        android:layout_marginTop="37dp"
-        android:layout_marginBottom="43dp"
-        app:layout_constraintBottom_toTopOf="@+id/ingresar"
-        app:layout_constraintTop_toBottomOf="@+id/fechaTexto"
-        app:layout_constraintVertical_bias="0.0"
-        tools:layout_editor_absoluteX="78dp" />
+        <Spinner
+            android:id="@+id/estadoObra"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/fechaTexto" />
 
-    <Button
-        android:id="@+id/verArtista"
-        android:layout_width="174dp"
-        android:layout_height="40dp"
-        android:layout_marginTop="180dp"
-        android:text="Ver Artistas"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="87dp" />
+        <Button
+            android:id="@+id/verArtista"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:text="Ver Artistas"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/precio" />
 
-    <TextView
-        android:id="@+id/id"
-        android:layout_width="31dp"
-        android:layout_height="26dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginBottom="11dp"
-        android:text="ID"
-        app:layout_constraintBottom_toTopOf="@+id/fecha"
-        app:layout_constraintTop_toBottomOf="@+id/verArtista"
-        app:layout_constraintVertical_bias="0.0"
-        tools:layout_editor_absoluteX="87dp" />
+        <TextView
+            android:id="@+id/id"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="40dp"
+            android:text="ID"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/verArtista" />
 
-    <TextView
-        android:id="@+id/nombreArt"
-        android:layout_width="133dp"
-        android:layout_height="26dp"
-        android:layout_marginStart="12dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginBottom="11dp"
-        android:text="Artista"
-        app:layout_constraintBottom_toTopOf="@+id/fecha"
-        app:layout_constraintStart_toEndOf="@+id/id"
-        app:layout_constraintTop_toBottomOf="@+id/verArtista"
-        app:layout_constraintVertical_bias="0.0" />
+        <TextView
+            android:id="@+id/nombreArt"
+            android:layout_width="133dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="40dp"
+            android:text="Artista"
+            app:layout_constraintStart_toEndOf="@+id/id"
+            app:layout_constraintTop_toBottomOf="@+id/verArtista" />
 
-    <Button
-        android:id="@+id/ingresar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Ingresar"
-        tools:layout_editor_absoluteX="146dp"
-        tools:layout_editor_absoluteY="507dp" />
+        <Button
+            android:id="@+id/ingresar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:text="Ingresar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/estadoObra" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

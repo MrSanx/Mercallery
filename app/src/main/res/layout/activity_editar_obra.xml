@@ -5,115 +5,155 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".EditarObra"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@drawable/texture01">
 
-    <TextView
-        android:id="@+id/idPieza"
-        android:layout_width="61dp"
-        android:layout_height="22dp"
-        android:layout_marginTop="28dp"
-        android:layout_marginLeft="150dp"
-        android:text=""
-        tools:layout_editor_absoluteX="150dp"
-        tools:layout_editor_absoluteY="5dp" />
 
-    <EditText
-        android:id="@+id/NombreP"
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="40dp"
-        android:layout_marginTop="12dp"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="87dp" />
-
-    <EditText
-        android:id="@+id/precio"
-        android:layout_width="match_parent"
-        android:layout_height="40dp"
-        android:layout_marginTop="12dp"
-        app:layout_constraintBottom_toTopOf="@+id/verArtista"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.92"
-        tools:layout_editor_absoluteX="87dp" />
-
-    <Button
-        android:id="@+id/registrar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="44dp"
-        android:layout_marginLeft="100dp"
-        android:text="Registrar"
-        tools:layout_editor_absoluteX="147dp"
-        tools:layout_editor_absoluteY="652dp" />
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:background="@color/white">
 
 
+        <TextView
+            android:id="@+id/idPieza"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
 
-    <TextView
-        android:id="@+id/fechaTexto"
-        android:layout_width="61dp"
-        android:layout_height="22dp"
-        android:layout_marginTop="28dp"
-        android:layout_marginLeft="130dp"
-        android:text=""
-        app:layout_constraintTop_toBottomOf="@+id/fecha"
-        tools:layout_editor_absoluteX="164dp" />
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="40dp"
+            android:text=""
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
-    <Spinner
-        android:id="@+id/estadoObra"
-        android:layout_width="254dp"
-        android:layout_height="37dp"
-        android:layout_marginTop="12dp"
-        android:layout_marginLeft="45dp"
-        app:layout_constraintBottom_toTopOf="@+id/ingresar"
-        app:layout_constraintTop_toBottomOf="@+id/fechaTexto"
-        app:layout_constraintVertical_bias="0.0"
-        tools:layout_editor_absoluteX="78dp" />
+        <EditText
+            android:id="@+id/NombreP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="40dp"
+            android:textSize="18dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/idPieza" />
 
-    <Button
-        android:id="@+id/verArtista"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
-        android:layout_marginLeft="120dp"
-        android:text="Ver Artistas"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="87dp" />
+        <EditText
+            android:id="@+id/precio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="40dp"
+            android:textSize="18dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/NombreP" />
 
-    <TextView
-        android:id="@+id/id"
-        android:layout_width="61dp"
-        android:layout_height="22dp"
-        android:layout_marginLeft="100dp"
-        android:layout_marginTop="28dp"
-        android:text="ID"
-        app:layout_constraintBottom_toTopOf="@+id/fecha"
-        app:layout_constraintTop_toBottomOf="@+id/verArtista"
-        app:layout_constraintVertical_bias="0.0"
-        tools:layout_editor_absoluteX="87dp" />
+        <Button
 
-    <TextView
-        android:id="@+id/nombreArt"
-        android:layout_width="61dp"
-        android:layout_height="22dp"
-        android:layout_marginLeft="130dp"
-        android:layout_marginTop="28dp"
-        android:text="Artista"
-        app:layout_constraintStart_toEndOf="@+id/id"
-        />
+            android:id="@+id/fecha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/ingresar"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:text="Seleccion Fecha"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/precio" />
 
-    <Button
-        android:id="@+id/fecha"
-        android:layout_width="181dp"
-        android:layout_height="47dp"
-        android:layout_marginBottom="260dp"
-        android:text="Seleccion Fecha"
-        app:layout_constraintBottom_toBottomOf="parent"
-        tools:layout_editor_absoluteX="82dp" />
+        <TextView
+            android:id="@+id/fechaTexto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="40dp"
+            android:text=""
+            android:textSize="18dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/fecha" />
 
-    <Button
-        android:id="@+id/ingresar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Ingresar"
-        tools:layout_editor_absoluteX="146dp"
-        tools:layout_editor_absoluteY="507dp" />
+        <Spinner
+            android:id="@+id/estadoObra"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="40dp"
+            android:textSize="18dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/fechaTexto" />
+
+        <Button
+            android:id="@+id/verArtista"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:text="Ver Artistas"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/estadoObra" />
+
+        <TextView
+            android:id="@+id/id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/nombreArt"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="40dp"
+            android:text="ID"
+            android:textSize="18dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/verArtista" />
+
+        <TextView
+            android:id="@+id/nombreArt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/fecha"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="40dp"
+            android:text="Artista"
+            android:textSize="18dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/id" />
+
+        <Button
+            android:id="@+id/registrar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:text="Registrar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/nombreArt" />
+
+        <Button
+            android:id="@+id/ingresar"
+            android:layout_width="42dp"
+            android:layout_height="22dp"
+            android:layout_alignParentBottom="true"
+            android:text="Ingresar"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
 </LinearLayout>

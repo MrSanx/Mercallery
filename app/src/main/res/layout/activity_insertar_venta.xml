@@ -4,87 +4,110 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".InsertarVenta">
+    tools:context=".InsertarVenta"
+    android:orientation="vertical"
+    android:background="@drawable/texture01">
 
-    <Button
-        android:id="@+id/obraV"
-        android:layout_width="191dp"
-        android:layout_height="44dp"
-        android:text="Seleccionar Pieza"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:background="@color/white"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="20dp">
 
-    <Button
-        android:id="@+id/cliente"
-        android:layout_width="228dp"
-        android:layout_height="48dp"
-        android:layout_marginTop="41dp"
-        android:text="Seleccionar Cliente"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/idOb" />
+        <Button
+            android:id="@+id/obraV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginEnd="20dp"
+            android:text="Seleccionar Pieza"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
-        android:id="@+id/idOb"
-        android:layout_width="66dp"
-        android:layout_height="23dp"
-        android:layout_marginTop="67dp"
-        android:text="ID"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/obraV" />
+        <Button
+            android:id="@+id/cliente"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="Seleccionar Cliente"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/idOb" />
 
-    <TextView
-        android:id="@+id/nombreOb"
-        android:layout_width="72dp"
-        android:layout_height="22dp"
-        android:layout_marginStart="12dp"
-        android:layout_marginTop="67dp"
-        android:text="Nombre obra"
-        app:layout_constraintStart_toEndOf="@+id/idOb"
-        app:layout_constraintTop_toBottomOf="@+id/obraV" />
+        <TextView
+            android:id="@+id/idOb"
+            android:layout_width="66dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="93dp"
+            android:layout_marginTop="20dp"
+            android:text="ID"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/obraV" />
 
-    <TextView
-        android:id="@+id/idCli"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="18dp"
-        android:text="ID"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cliente" />
+        <TextView
+            android:id="@+id/nombreOb"
+            android:layout_width="72dp"
+            android:layout_height="22dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="93dp"
+            android:text="Nombre obra"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/obraV" />
 
-    <TextView
-        android:id="@+id/nombreCli"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="36dp"
-        android:layout_marginTop="16dp"
-        android:text="Nombre"
-        app:layout_constraintStart_toEndOf="@+id/idCli"
-        app:layout_constraintTop_toBottomOf="@+id/cliente" />
+        <TextView
+            android:id="@+id/idCli"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="84dp"
+            android:layout_marginTop="20dp"
+            android:text="ID"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cliente" />
 
-    <Button
-        android:id="@+id/venta"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="71dp"
-        android:text="Registrar Venta"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/fechaTexto" />
+        <TextView
+            android:id="@+id/nombreCli"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="84dp"
+            android:text="Nombre"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cliente" />
 
-    <Button
-        android:id="@+id/fecha"
-        android:layout_width="181dp"
-        android:layout_height="47dp"
-        android:layout_marginTop="33dp"
-        android:text="Seleccion Fecha"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/idCli" />
+        <Button
+            android:id="@+id/venta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="Registrar Venta"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/fechaTexto" />
 
-    <TextView
-        android:id="@+id/fechaTexto"
-        android:layout_width="122dp"
-        android:layout_height="22dp"
-        android:layout_marginTop="8dp"
-        android:text=""
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/fecha" />
+        <Button
+            android:id="@+id/fecha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="Seleccion Fecha"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/idCli" />
+
+        <TextView
+            android:id="@+id/fechaTexto"
+            android:layout_width="122dp"
+            android:layout_height="22dp"
+            android:layout_marginTop="20dp"
+            android:text=""
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/fecha" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

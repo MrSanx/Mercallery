@@ -26,4 +26,5 @@ public class ActivityCrear extends AppCompatActivity {
         Intent dale = new Intent(this, InsertarVenta.class);
         startActivity(dale);
     }
+
 }

@@ -24,4 +24,9 @@ public class SeleccionActividad extends AppCompatActivity {
         Intent ver = new Intent(this, ActivityVer.class);
         startActivity(ver);
     }
+
+    public void main(View view) {
+        Intent main = new Intent(this, MainActivity.class);
+        startActivity(main);
+    }
 }

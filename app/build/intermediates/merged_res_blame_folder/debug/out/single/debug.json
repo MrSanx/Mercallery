@@ -1,170 +1,202 @@
 [
     {
-        "merged": "C:\\apps\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_ver_obra.xml.flat",
-        "source": "C:\\apps\\Mercallery-Pro\\app\\src\\main\\res\\layout\\activity_ver_obra.xml"
+        "merged": "C:\\Users\\Atomi\\OneDrive\\Documents\\GitHub\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Atomi\\OneDrive\\Documents\\GitHub\\Mercallery-Pro\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\apps\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\drawable_texture04.png.flat",
-        "source": "C:\\apps\\Mercallery-Pro\\app\\src\\main\\res\\drawable\\texture04.png"
+        "merged": "C:\\Users\\Atomi\\OneDrive\\Documents\\GitHub\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_editar_obra.xml.flat",
+        "source": "C:\\Users\\Atomi\\OneDrive\\Documents\\GitHub\\Mercallery-Pro\\app\\src\\main\\res\\layout\\activity_editar_obra.xml"
     },
     {
-        "merged": "C:\\apps\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "C:\\apps\\Mercallery-Pro\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\Atomi\\OneDrive\\Documents\\GitHub\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Atomi\\OneDrive\\Documents\\GitHub\\Mercallery-Pro\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\apps\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_editar_obra.xml.flat",
-        "source": "C:\\apps\\Mercallery-Pro\\app\\src\\main\\res\\layout\\activity_editar_obra.xml"
+        "merged": "C:\\Users\\Atomi\\OneDrive\\Documents\\GitHub\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Atomi\\OneDrive\\Documents\\GitHub\\Mercallery-Pro\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\apps\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_detalles_persona.xml.flat",
-        "source": "C:\\apps\\Mercallery-Pro\\app\\src\\main\\res\\layout\\activity_detalles_persona.xml"
+        "merged": "C:\\Users\\Atomi\\OneDrive\\Documents\\GitHub\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\layout_my_list_itempersona.xml.flat",
+        "source": "C:\\Users\\Atomi\\OneDrive\\Documents\\GitHub\\Mercallery-Pro\\app\\src\\main\\res\\layout\\my_list_itempersona.xml"
     },
     {
-        "merged": "C:\\apps\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\apps\\Mercallery-Pro\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\Atomi\\OneDrive\\Documents\\GitHub\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\drawable_logo_n.png.flat",
+        "source": "C:\\Users\\Atomi\\OneDrive\\Documents\\GitHub\\Mercallery-Pro\\app\\src\\main\\res\\drawable\\logo_n.png"
     },
     {
-        "merged": "C:\\apps\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_crear.xml.flat",
-        "source": "C:\\apps\\Mercallery-Pro\\app\\src\\main\\res\\layout\\activity_crear.xml"
+        "merged": "C:\\Users\\Atomi\\OneDrive\\Documents\\GitHub\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Atomi\\OneDrive\\Documents\\GitHub\\Mercallery-Pro\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\apps\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\apps\\Mercallery-Pro\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\Atomi\\OneDrive\\Documents\\GitHub\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_eliminar_persona.xml.flat",
+        "source": "C:\\Users\\Atomi\\OneDrive\\Documents\\GitHub\\Mercallery-Pro\\app\\src\\main\\res\\layout\\activity_eliminar_persona.xml"
     },
     {
-        "merged": "C:\\apps\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\drawable_texture02.jpg.flat",
-        "source": "C:\\apps\\Mercallery-Pro\\app\\src\\main\\res\\drawable\\texture02.jpg"
+        "merged": "C:\\Users\\Atomi\\OneDrive\\Documents\\GitHub\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\layout_my_list_itemobra.xml.flat",
+        "source": "C:\\Users\\Atomi\\OneDrive\\Documents\\GitHub\\Mercallery-Pro\\app\\src\\main\\res\\layout\\my_list_itemobra.xml"
     },
     {
-        "merged": "C:\\apps\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "C:\\apps\\Mercallery-Pro\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\Atomi\\OneDrive\\Documents\\GitHub\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Atomi\\OneDrive\\Documents\\GitHub\\Mercallery-Pro\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\apps\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_ver.xml.flat",
-        "source": "C:\\apps\\Mercallery-Pro\\app\\src\\main\\res\\layout\\activity_ver.xml"
+        "merged": "C:\\Users\\Atomi\\OneDrive\\Documents\\GitHub\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Atomi\\OneDrive\\Documents\\GitHub\\Mercallery-Pro\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\apps\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_ver_venta.xml.flat",
-        "source": "C:\\apps\\Mercallery-Pro\\app\\src\\main\\res\\layout\\activity_ver_venta.xml"
+        "merged": "C:\\Users\\Atomi\\OneDrive\\Documents\\GitHub\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_eliminar_obra.xml.flat",
+        "source": "C:\\Users\\Atomi\\OneDrive\\Documents\\GitHub\\Mercallery-Pro\\app\\src\\main\\res\\layout\\activity_eliminar_obra.xml"
     },
     {
-        "merged": "C:\\apps\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\apps\\Mercallery-Pro\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+        "merged": "C:\\Users\\Atomi\\OneDrive\\Documents\\GitHub\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icon_usuario.png.flat",
+        "source": "C:\\Users\\Atomi\\OneDrive\\Documents\\GitHub\\Mercallery-Pro\\app\\src\\main\\res\\drawable\\icon_usuario.png"
     },
     {
-        "merged": "C:\\apps\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_ver_personas.xml.flat",
-        "source": "C:\\apps\\Mercallery-Pro\\app\\src\\main\\res\\layout\\activity_ver_personas.xml"
+        "merged": "C:\\Users\\Atomi\\OneDrive\\Documents\\GitHub\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Atomi\\OneDrive\\Documents\\GitHub\\Mercallery-Pro\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\apps\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\layout_my_list_itempersona.xml.flat",
-        "source": "C:\\apps\\Mercallery-Pro\\app\\src\\main\\res\\layout\\my_list_itempersona.xml"
+        "merged": "C:\\Users\\Atomi\\OneDrive\\Documents\\GitHub\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icon_crear.png.flat",
+        "source": "C:\\Users\\Atomi\\OneDrive\\Documents\\GitHub\\Mercallery-Pro\\app\\src\\main\\res\\drawable\\icon_crear.png"
     },
     {
-        "merged": "C:\\apps\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_seleccion_actividad.xml.flat",
-        "source": "C:\\apps\\Mercallery-Pro\\app\\src\\main\\res\\layout\\activity_seleccion_actividad.xml"
+        "merged": "C:\\Users\\Atomi\\OneDrive\\Documents\\GitHub\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Atomi\\OneDrive\\Documents\\GitHub\\Mercallery-Pro\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\apps\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_insertar_venta.xml.flat",
-        "source": "C:\\apps\\Mercallery-Pro\\app\\src\\main\\res\\layout\\activity_insertar_venta.xml"
+        "merged": "C:\\Users\\Atomi\\OneDrive\\Documents\\GitHub\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Atomi\\OneDrive\\Documents\\GitHub\\Mercallery-Pro\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\apps\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "C:\\apps\\Mercallery-Pro\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\Atomi\\OneDrive\\Documents\\GitHub\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_seleccion_actividad.xml.flat",
+        "source": "C:\\Users\\Atomi\\OneDrive\\Documents\\GitHub\\Mercallery-Pro\\app\\src\\main\\res\\layout\\activity_seleccion_actividad.xml"
     },
     {
-        "merged": "C:\\apps\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_ver_obra_venta.xml.flat",
-        "source": "C:\\apps\\Mercallery-Pro\\app\\src\\main\\res\\layout\\activity_ver_obra_venta.xml"
+        "merged": "C:\\Users\\Atomi\\OneDrive\\Documents\\GitHub\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\layout_my_list_itemventa.xml.flat",
+        "source": "C:\\Users\\Atomi\\OneDrive\\Documents\\GitHub\\Mercallery-Pro\\app\\src\\main\\res\\layout\\my_list_itemventa.xml"
     },
     {
-        "merged": "C:\\apps\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
-        "source": "C:\\apps\\Mercallery-Pro\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\Atomi\\OneDrive\\Documents\\GitHub\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_detalles_obra.xml.flat",
+        "source": "C:\\Users\\Atomi\\OneDrive\\Documents\\GitHub\\Mercallery-Pro\\app\\src\\main\\res\\layout\\activity_detalles_obra.xml"
     },
     {
-        "merged": "C:\\apps\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\apps\\Mercallery-Pro\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\Atomi\\OneDrive\\Documents\\GitHub\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icon_regresar.png.flat",
+        "source": "C:\\Users\\Atomi\\OneDrive\\Documents\\GitHub\\Mercallery-Pro\\app\\src\\main\\res\\drawable\\icon_regresar.png"
     },
     {
-        "merged": "C:\\apps\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_detalles_obra.xml.flat",
-        "source": "C:\\apps\\Mercallery-Pro\\app\\src\\main\\res\\layout\\activity_detalles_obra.xml"
+        "merged": "C:\\Users\\Atomi\\OneDrive\\Documents\\GitHub\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\drawable_texture02.png.flat",
+        "source": "C:\\Users\\Atomi\\OneDrive\\Documents\\GitHub\\Mercallery-Pro\\app\\src\\main\\res\\drawable\\texture02.png"
     },
     {
-        "merged": "C:\\apps\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\apps\\Mercallery-Pro\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "C:\\Users\\Atomi\\OneDrive\\Documents\\GitHub\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icon_s.png.flat",
+        "source": "C:\\Users\\Atomi\\OneDrive\\Documents\\GitHub\\Mercallery-Pro\\app\\src\\main\\res\\drawable\\icon_s.png"
     },
     {
-        "merged": "C:\\apps\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "C:\\apps\\Mercallery-Pro\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\Atomi\\OneDrive\\Documents\\GitHub\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Atomi\\OneDrive\\Documents\\GitHub\\Mercallery-Pro\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\apps\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_insertar_persona.xml.flat",
-        "source": "C:\\apps\\Mercallery-Pro\\app\\src\\main\\res\\layout\\activity_insertar_persona.xml"
+        "merged": "C:\\Users\\Atomi\\OneDrive\\Documents\\GitHub\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icon_ver.png.flat",
+        "source": "C:\\Users\\Atomi\\OneDrive\\Documents\\GitHub\\Mercallery-Pro\\app\\src\\main\\res\\drawable\\icon_ver.png"
     },
     {
-        "merged": "C:\\apps\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_eliminar_persona.xml.flat",
-        "source": "C:\\apps\\Mercallery-Pro\\app\\src\\main\\res\\layout\\activity_eliminar_persona.xml"
+        "merged": "C:\\Users\\Atomi\\OneDrive\\Documents\\GitHub\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_ver_obra_venta.xml.flat",
+        "source": "C:\\Users\\Atomi\\OneDrive\\Documents\\GitHub\\Mercallery-Pro\\app\\src\\main\\res\\layout\\activity_ver_obra_venta.xml"
     },
     {
-        "merged": "C:\\apps\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\apps\\Mercallery-Pro\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "C:\\Users\\Atomi\\OneDrive\\Documents\\GitHub\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\drawable_texture03.png.flat",
+        "source": "C:\\Users\\Atomi\\OneDrive\\Documents\\GitHub\\Mercallery-Pro\\app\\src\\main\\res\\drawable\\texture03.png"
     },
     {
-        "merged": "C:\\apps\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_ver_artista.xml.flat",
-        "source": "C:\\apps\\Mercallery-Pro\\app\\src\\main\\res\\layout\\activity_ver_artista.xml"
+        "merged": "C:\\Users\\Atomi\\OneDrive\\Documents\\GitHub\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_insertar_persona.xml.flat",
+        "source": "C:\\Users\\Atomi\\OneDrive\\Documents\\GitHub\\Mercallery-Pro\\app\\src\\main\\res\\layout\\activity_insertar_persona.xml"
     },
     {
-        "merged": "C:\\apps\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\layout_my_list_itemobra.xml.flat",
-        "source": "C:\\apps\\Mercallery-Pro\\app\\src\\main\\res\\layout\\my_list_itemobra.xml"
+        "merged": "C:\\Users\\Atomi\\OneDrive\\Documents\\GitHub\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_insertar_venta.xml.flat",
+        "source": "C:\\Users\\Atomi\\OneDrive\\Documents\\GitHub\\Mercallery-Pro\\app\\src\\main\\res\\layout\\activity_insertar_venta.xml"
     },
     {
-        "merged": "C:\\apps\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\layout_my_list_itemventa.xml.flat",
-        "source": "C:\\apps\\Mercallery-Pro\\app\\src\\main\\res\\layout\\my_list_itemventa.xml"
+        "merged": "C:\\Users\\Atomi\\OneDrive\\Documents\\GitHub\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_insertar_obra.xml.flat",
+        "source": "C:\\Users\\Atomi\\OneDrive\\Documents\\GitHub\\Mercallery-Pro\\app\\src\\main\\res\\layout\\activity_insertar_obra.xml"
     },
     {
-        "merged": "C:\\apps\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\drawable_texture01.jpg.flat",
-        "source": "C:\\apps\\Mercallery-Pro\\app\\src\\main\\res\\drawable\\texture01.jpg"
+        "merged": "C:\\Users\\Atomi\\OneDrive\\Documents\\GitHub\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Atomi\\OneDrive\\Documents\\GitHub\\Mercallery-Pro\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\apps\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
-        "source": "C:\\apps\\Mercallery-Pro\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\Atomi\\OneDrive\\Documents\\GitHub\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_ver_personas.xml.flat",
+        "source": "C:\\Users\\Atomi\\OneDrive\\Documents\\GitHub\\Mercallery-Pro\\app\\src\\main\\res\\layout\\activity_ver_personas.xml"
     },
     {
-        "merged": "C:\\apps\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\drawable_logo.png.flat",
-        "source": "C:\\apps\\Mercallery-Pro\\app\\src\\main\\res\\drawable\\logo.png"
+        "merged": "C:\\Users\\Atomi\\OneDrive\\Documents\\GitHub\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icon_compra.png.flat",
+        "source": "C:\\Users\\Atomi\\OneDrive\\Documents\\GitHub\\Mercallery-Pro\\app\\src\\main\\res\\drawable\\icon_compra.png"
     },
     {
-        "merged": "C:\\apps\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\drawable_texture03.jpg.flat",
-        "source": "C:\\apps\\Mercallery-Pro\\app\\src\\main\\res\\drawable\\texture03.jpg"
+        "merged": "C:\\Users\\Atomi\\OneDrive\\Documents\\GitHub\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Atomi\\OneDrive\\Documents\\GitHub\\Mercallery-Pro\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\apps\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "C:\\apps\\Mercallery-Pro\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\Atomi\\OneDrive\\Documents\\GitHub\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icon_obra.png.flat",
+        "source": "C:\\Users\\Atomi\\OneDrive\\Documents\\GitHub\\Mercallery-Pro\\app\\src\\main\\res\\drawable\\icon_obra.png"
     },
     {
-        "merged": "C:\\apps\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\drawable_logo_s.png.flat",
-        "source": "C:\\apps\\Mercallery-Pro\\app\\src\\main\\res\\drawable\\logo_s.png"
+        "merged": "C:\\Users\\Atomi\\OneDrive\\Documents\\GitHub\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Atomi\\OneDrive\\Documents\\GitHub\\Mercallery-Pro\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\apps\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_insertar_obra.xml.flat",
-        "source": "C:\\apps\\Mercallery-Pro\\app\\src\\main\\res\\layout\\activity_insertar_obra.xml"
+        "merged": "C:\\Users\\Atomi\\OneDrive\\Documents\\GitHub\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_ver.xml.flat",
+        "source": "C:\\Users\\Atomi\\OneDrive\\Documents\\GitHub\\Mercallery-Pro\\app\\src\\main\\res\\layout\\activity_ver.xml"
     },
     {
-        "merged": "C:\\apps\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_editar_persona.xml.flat",
-        "source": "C:\\apps\\Mercallery-Pro\\app\\src\\main\\res\\layout\\activity_editar_persona.xml"
+        "merged": "C:\\Users\\Atomi\\OneDrive\\Documents\\GitHub\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_ver_artista.xml.flat",
+        "source": "C:\\Users\\Atomi\\OneDrive\\Documents\\GitHub\\Mercallery-Pro\\app\\src\\main\\res\\layout\\activity_ver_artista.xml"
     },
     {
-        "merged": "C:\\apps\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_eliminar_obra.xml.flat",
-        "source": "C:\\apps\\Mercallery-Pro\\app\\src\\main\\res\\layout\\activity_eliminar_obra.xml"
+        "merged": "C:\\Users\\Atomi\\OneDrive\\Documents\\GitHub\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\drawable_texture04.png.flat",
+        "source": "C:\\Users\\Atomi\\OneDrive\\Documents\\GitHub\\Mercallery-Pro\\app\\src\\main\\res\\drawable\\texture04.png"
     },
     {
-        "merged": "C:\\apps\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_ver_cliente.xml.flat",
-        "source": "C:\\apps\\Mercallery-Pro\\app\\src\\main\\res\\layout\\activity_ver_cliente.xml"
+        "merged": "C:\\Users\\Atomi\\OneDrive\\Documents\\GitHub\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_ver_obra.xml.flat",
+        "source": "C:\\Users\\Atomi\\OneDrive\\Documents\\GitHub\\Mercallery-Pro\\app\\src\\main\\res\\layout\\activity_ver_obra.xml"
     },
     {
-        "merged": "C:\\apps\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "C:\\apps\\Mercallery-Pro\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\Atomi\\OneDrive\\Documents\\GitHub\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\drawable_texture01.jpg.flat",
+        "source": "C:\\Users\\Atomi\\OneDrive\\Documents\\GitHub\\Mercallery-Pro\\app\\src\\main\\res\\drawable\\texture01.jpg"
     },
     {
-        "merged": "C:\\apps\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
-        "source": "C:\\apps\\Mercallery-Pro\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\Atomi\\OneDrive\\Documents\\GitHub\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icon_borrar.png.flat",
+        "source": "C:\\Users\\Atomi\\OneDrive\\Documents\\GitHub\\Mercallery-Pro\\app\\src\\main\\res\\drawable\\icon_borrar.png"
+    },
+    {
+        "merged": "C:\\Users\\Atomi\\OneDrive\\Documents\\GitHub\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_ver_cliente.xml.flat",
+        "source": "C:\\Users\\Atomi\\OneDrive\\Documents\\GitHub\\Mercallery-Pro\\app\\src\\main\\res\\layout\\activity_ver_cliente.xml"
+    },
+    {
+        "merged": "C:\\Users\\Atomi\\OneDrive\\Documents\\GitHub\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Atomi\\OneDrive\\Documents\\GitHub\\Mercallery-Pro\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Atomi\\OneDrive\\Documents\\GitHub\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\drawable_logo.png.flat",
+        "source": "C:\\Users\\Atomi\\OneDrive\\Documents\\GitHub\\Mercallery-Pro\\app\\src\\main\\res\\drawable\\logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Atomi\\OneDrive\\Documents\\GitHub\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_detalles_persona.xml.flat",
+        "source": "C:\\Users\\Atomi\\OneDrive\\Documents\\GitHub\\Mercallery-Pro\\app\\src\\main\\res\\layout\\activity_detalles_persona.xml"
+    },
+    {
+        "merged": "C:\\Users\\Atomi\\OneDrive\\Documents\\GitHub\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_editar_persona.xml.flat",
+        "source": "C:\\Users\\Atomi\\OneDrive\\Documents\\GitHub\\Mercallery-Pro\\app\\src\\main\\res\\layout\\activity_editar_persona.xml"
+    },
+    {
+        "merged": "C:\\Users\\Atomi\\OneDrive\\Documents\\GitHub\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_ver_venta.xml.flat",
+        "source": "C:\\Users\\Atomi\\OneDrive\\Documents\\GitHub\\Mercallery-Pro\\app\\src\\main\\res\\layout\\activity_ver_venta.xml"
+    },
+    {
+        "merged": "C:\\Users\\Atomi\\OneDrive\\Documents\\GitHub\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_crear.xml.flat",
+        "source": "C:\\Users\\Atomi\\OneDrive\\Documents\\GitHub\\Mercallery-Pro\\app\\src\\main\\res\\layout\\activity_crear.xml"
+    },
+    {
+        "merged": "C:\\Users\\Atomi\\OneDrive\\Documents\\GitHub\\Mercallery-Pro\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Atomi\\OneDrive\\Documents\\GitHub\\Mercallery-Pro\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     }
 ]
