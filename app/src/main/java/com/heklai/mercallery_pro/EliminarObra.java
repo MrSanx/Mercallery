@@ -42,7 +42,7 @@ public class EliminarObra extends AppCompatActivity {
             @Override
             public void onResponse(String response) {
                 Toast.makeText(EliminarObra.this, response, Toast.LENGTH_SHORT).show();
-                startActivity(new Intent(getApplicationContext(), VerPersonas.class));
+                startActivity(new Intent(getApplicationContext(), VerObra.class));
                 finish();
                 progressDialog.dismiss();
             }

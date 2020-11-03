@@ -16,6 +16,7 @@
         <TextView
             android:textSize="20dp"
             android:id="@+id/idPersona"
+            android:hint="ID"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
@@ -28,6 +29,7 @@
 
         <EditText
             android:id="@+id/NombreP"
+            android:hint="Nombre"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
@@ -39,6 +41,7 @@
 
         <EditText
             android:id="@+id/DocumentoP"
+            android:hint="Documento"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
@@ -63,6 +66,7 @@
         <TextView
             android:textSize="20dp"
             android:id="@+id/fechaTexto"
+            android:hint="Fecha"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
@@ -75,6 +79,7 @@
 
         <Spinner
             android:id="@+id/tipoPersona"
+            android:autofillHints="Tipo de persona"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"

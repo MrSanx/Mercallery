@@ -18,6 +18,7 @@
 
         <EditText
             android:id="@+id/NombreP"
+            android:hint="Nombre"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
@@ -29,6 +30,7 @@
 
         <EditText
             android:id="@+id/precio"
+            android:hint="Valor"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
@@ -61,6 +63,7 @@
 
         <TextView
             android:id="@+id/fechaTexto"
+            android:hint="Fecha"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
@@ -73,6 +76,7 @@
 
         <Spinner
             android:id="@+id/estadoObra"
+            android:autofillHints="Estado"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"

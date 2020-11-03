@@ -120,87 +120,102 @@ public class InsertarVenta extends AppCompatActivity {
     }
 
     private void insertar() {
+        String idPersona = idCli.getText().toString().trim();
+        String idPieza = idOb.getText().toString().trim();
+        String fechaVenta = fechaN.getText().toString().trim();
 
-        String idPersona= idCli.getText().toString().trim();
-        String idPieza= idOb.getText().toString().trim();
-        String fechaVenta= fechaN.getText().toString().trim();
+        ProgressDialog progressDialog = new ProgressDialog(this);
 
-        ProgressDialog progressDialog= new ProgressDialog(this);
+        if (idPersona.isEmpty()) {
+            idCli.setError("Complete todos los campos");
+        } else if(idPieza.isEmpty()){
+            idOb.setError("Complete todos los campos");
+        }
+        else if(fechaVenta.isEmpty()){
+            fechaN.setError("Complete todos los campos");
+        }else{
+            progressDialog.show();
 
-        progressDialog.show();
-
-        StringRequest request= new StringRequest(Request.Method.POST, "https://galeriabd.000webhostapp.com/crud/conexionDBVenta.php", new Response.Listener<String>() {
-            @Override
-            public void onResponse(String response) {
-                if (response.equalsIgnoreCase("Datos Insertados")) {
-                    Toast.makeText(InsertarVenta.this, "Datos Ingresados", Toast.LENGTH_SHORT).show();
-                    progressDialog.dismiss();
-                } else {
-                    Toast.makeText(InsertarVenta.this, response, Toast.LENGTH_SHORT).show();
+            StringRequest request = new StringRequest(Request.Method.POST, "https://galeriabd.000webhostapp.com/crud/conexionDBVenta.php", new Response.Listener<String>() {
+                @Override
+                public void onResponse(String response) {
+                    if (response.equalsIgnoreCase("Datos Insertados")) {
+                        Toast.makeText(InsertarVenta.this, "Datos Ingresados", Toast.LENGTH_SHORT).show();
+                        progressDialog.dismiss();
+                    } else {
+                        Toast.makeText(InsertarVenta.this, response, Toast.LENGTH_SHORT).show();
+                        progressDialog.dismiss();
+                    }
+                }
+            }, new Response.ErrorListener() {
+                @Override
+                public void onErrorResponse(VolleyError error) {
+                    Toast.makeText(InsertarVenta.this, error.getMessage(), Toast.LENGTH_SHORT).show();
                     progressDialog.dismiss();
                 }
-            }
-        }, new Response.ErrorListener() {
-            @Override
-            public void onErrorResponse(VolleyError error) {
-                Toast.makeText(InsertarVenta.this, error.getMessage(),Toast.LENGTH_SHORT).show();
-                progressDialog.dismiss();
-            }
-        }){
-            @Override
-            protected Map<String, String> getParams() throws AuthFailureError {
-                Map<String,String>params= new HashMap<String, String>();
+            }) {
+                @Override
+                protected Map<String, String> getParams() throws AuthFailureError {
+                    Map<String, String> params = new HashMap<String, String>();
 
-                params.put("idPersona", idPersona);
-                params.put("idPieza", idPieza);
-                params.put("fechaVenta", fechaVenta);
-                return params;
-            }
-        };
-        RequestQueue requestQueue= Volley.newRequestQueue(InsertarVenta.this);
-        requestQueue.add(request);
+                    params.put("idPersona", idPersona);
+                    params.put("idPieza", idPieza);
+                    params.put("fechaVenta", fechaVenta);
+                    return params;
+                }
+            };
+            RequestQueue requestQueue = Volley.newRequestQueue(InsertarVenta.this);
+            requestQueue.add(request);
 
-
+        }
     }
 
     private void actualizar() {
-        final String idP= idOb.getText().toString().trim();
-
+        String idPersona = idCli.getText().toString().trim();
+        String fechaVenta = fechaN.getText().toString().trim();
+        final String idP = idOb.getText().toString().trim();
 
         final ProgressDialog progressDialog = new ProgressDialog(this);
-        progressDialog.setMessage("Cargando...");
-        progressDialog.show();
+        if (idPersona.isEmpty()) {
+            idCli.setError("Complete todos los campos");
+        } else if (idP.isEmpty()) {
+            idOb.setError("Complete todos los campos");
+        } else if (fechaVenta.isEmpty()) {
+            fechaN.setError("Complete todos los campos");
+        } else {
+            progressDialog.setMessage("Cargando...");
+            progressDialog.show();
 
-        StringRequest request= new StringRequest(Request.Method.POST, "https://galeriabd.000webhostapp.com/crud/actualizarObraVenta.php", new Response.Listener<String>() {
-            @Override
-            public void onResponse(String response) {
-                if (response.equalsIgnoreCase("Datos Insertados")) {
-                    Toast.makeText(InsertarVenta.this, "Datos Ingresados", Toast.LENGTH_SHORT).show();
-                    progressDialog.dismiss();
-                } else {
-                    Toast.makeText(InsertarVenta.this, response, Toast.LENGTH_SHORT).show();
+            StringRequest request = new StringRequest(Request.Method.POST, "https://galeriabd.000webhostapp.com/crud/actualizarObraVenta.php", new Response.Listener<String>() {
+                @Override
+                public void onResponse(String response) {
+                    if (response.equalsIgnoreCase("Datos Insertados")) {
+                        Toast.makeText(InsertarVenta.this, "Datos Ingresados", Toast.LENGTH_SHORT).show();
+                        progressDialog.dismiss();
+                    } else {
+                        Toast.makeText(InsertarVenta.this, response, Toast.LENGTH_SHORT).show();
+                        progressDialog.dismiss();
+                    }
+                }
+            }, new Response.ErrorListener() {
+                @Override
+                public void onErrorResponse(VolleyError error) {
+                    Toast.makeText(InsertarVenta.this, error.getMessage(), Toast.LENGTH_SHORT).show();
                     progressDialog.dismiss();
                 }
-            }
-        }, new Response.ErrorListener() {
-            @Override
-            public void onErrorResponse(VolleyError error) {
-                Toast.makeText(InsertarVenta.this, error.getMessage(),Toast.LENGTH_SHORT).show();
-                progressDialog.dismiss();
-            }
-        }){
-            @Override
-            protected Map<String, String> getParams() throws AuthFailureError {
-                Map<String,String>params= new HashMap<String, String>();
+            }) {
+                @Override
+                protected Map<String, String> getParams() throws AuthFailureError {
+                    Map<String, String> params = new HashMap<String, String>();
 
-                params.put("idPieza", idP);
+                    params.put("idPieza", idP);
 
-                return params;
-            }
-        };
-        RequestQueue requestQueue= Volley.newRequestQueue(InsertarVenta.this);
-        requestQueue.add(request);
+                    return params;
+                }
 
-
+            };
+            RequestQueue requestQueue = Volley.newRequestQueue(InsertarVenta.this);
+            requestQueue.add(request);
+        }
     }
 }

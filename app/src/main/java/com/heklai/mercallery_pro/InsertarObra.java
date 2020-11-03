@@ -44,7 +44,7 @@ public class InsertarObra extends AppCompatActivity {
         setContentView(R.layout.activity_insertar_obra);
 
         estado = findViewById(R.id.estadoObra);
-        String[] items = new String[]{"En Exposicion", "Almacen", "Vendida"};
+        String[] items = new String[]{"En Exposicion", "Almacen"};
         ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_spinner_dropdown_item, items);
         estado.setAdapter(adapter);
 

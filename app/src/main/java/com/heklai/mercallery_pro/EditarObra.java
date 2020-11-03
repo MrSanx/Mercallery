@@ -106,7 +106,6 @@ public class EditarObra extends AppCompatActivity {
                 int position= data.getExtras().getInt("position");
                 id.setText(VerArtista.personas.get(position).getIdPersona());
                 nombreArt.setText(VerArtista.personas.get(position).getNombre());
-
             }
             if(resultCode == RESULT_CANCELED){
                 Toast.makeText(EditarObra.this,"Error al Selccionar Artista", Toast.LENGTH_LONG).show();;
